@@ -1,0 +1,44 @@
+.cv-contenair{
+display: grid;
+grid-template-rows: 1fr 2fr 1fr;
+grid-template-areas: 'head content foot';
+}
+
+.cv-head{
+display: grid;
+padding: 50px;
+background-color: rgb(47,45,48);
+color:antiquewhite   
+}
+
+.cv-content{
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-template-areas: 'left-part right-part';
+}
+
+.cv-foot{
+display: grid;
+padding: 50px;
+background-color: rgb(47,45,48);
+color:antiquewhite
+}
+
+.left-part{
+grid-area: left-part;
+padding: 50px;
+background-color: rgb(5,53,101);
+color:antiquewhite
+}
+
+.right-part{
+grid-area: right-part;
+padding: 50px;
+background-color: rgb(7,76,141);
+color:antiquewhite
+}
+
+.picture1{
+height: 100px;
+width: 100px;
+}
