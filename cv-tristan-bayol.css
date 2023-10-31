@@ -6,7 +6,7 @@ grid-template-areas: 'head content foot';
 
 .cv-head{
 display: grid;
-padding: 50px;
+padding: 25px;
 background-color: rgb(47,45,48);
 color:antiquewhite   
 }
@@ -19,26 +19,37 @@ grid-template-areas: 'left-part right-part';
 
 .cv-foot{
 display: grid;
-padding: 50px;
+padding: 25px;
 background-color: rgb(47,45,48);
 color:antiquewhite
 }
 
 .left-part{
 grid-area: left-part;
-padding: 50px;
+padding: 50;
 background-color: rgb(5,53,101);
 color:antiquewhite
 }
 
 .right-part{
 grid-area: right-part;
-padding: 50px;
+padding: 50;
 background-color: rgb(7,76,141);
 color:antiquewhite
 }
 
-.picture1{
-height: 100px;
-width: 100px;
+.title{
+font-family: fantasy;
+color: azure;
+font-weight: bold;
+font-style: italic;
+}
+
+.subtitle{
+text-decoration: underline;  
+}
+
+.pdf-logo{
+height: 96px;
+width: 96px;
 }
