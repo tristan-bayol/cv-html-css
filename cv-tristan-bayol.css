@@ -1,20 +1,27 @@
 .cv-contenair{
 display: grid;
 grid-template-rows: 1fr 2fr 1fr;
-grid-template-areas: 'head content foot';
+grid-template-areas: "head content foot";
 }
 
 .cv-head{
 display: grid;
 padding: 25px;
 background-color: rgb(47,45,48);
-color:antiquewhite   
+color:antiquewhite;
+grid-template-columns: 1fr 2fr;
+grid-template-areas: "head left head-right";  
+}
+
+.head-right{
+display: grid;
+padding: 25px;
 }
 
 .cv-content{
 display: grid;
 grid-template-columns: 1fr 2fr;
-grid-template-areas: 'left-part right-part';
+grid-template-areas: "left-part right-part";
 }
 
 .cv-foot{
@@ -26,14 +33,14 @@ color:antiquewhite
 
 .left-part{
 grid-area: left-part;
-padding: 50;
+padding: 25px;
 background-color: rgb(5,53,101);
 color:antiquewhite
 }
 
 .right-part{
 grid-area: right-part;
-padding: 50;
+padding: 25px;
 background-color: rgb(7,76,141);
 color:antiquewhite
 }
@@ -50,6 +57,6 @@ text-decoration: underline;
 }
 
 .pdf-logo{
-height: 96px;
-width: 96px;
+height: 48px;
+width: 48px;
 }
