@@ -1,12 +1,11 @@
 .cv-contenair{
 display: grid;
-grid-template-rows: 1fr 2fr 1fr;
-grid-template-areas: "head content foot";
+grid-template-rows: 1fr 2fr;
+grid-template-areas: "head content";
 }
 
 .cv-head{
 display: grid;
-padding: 25px;
 background-color: rgb(47,45,48);
 color:antiquewhite;
 grid-template-columns: 1fr 2fr;
@@ -15,20 +14,14 @@ grid-template-areas: "head left head-right";
 
 .head-right{
 display: grid;
-padding: 25px;
+padding: 10px;
+padding-left: 25px;
 }
 
 .cv-content{
 display: grid;
 grid-template-columns: 1fr 2fr;
 grid-template-areas: "left-part right-part";
-}
-
-.cv-foot{
-display: grid;
-padding: 25px;
-background-color: rgb(47,45,48);
-color:antiquewhite
 }
 
 .left-part{
@@ -52,11 +45,16 @@ font-weight: bold;
 font-style: italic;
 }
 
-.subtitle{
+.underligne{
 text-decoration: underline;  
 }
 
-.pdf-logo{
+#pdf-logo{
+height: 24px;
+width: 24px;
+}
+
+.skills-logo{
 height: 48px;
 width: 48px;
 }
