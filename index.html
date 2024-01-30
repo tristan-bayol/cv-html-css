@@ -9,87 +9,113 @@
     <title>Mon Cv</title>
 </head>
 
-<body class="cv-container">
-    <header class="cv-head">
-        <section class="head-left"></section>
-        <section class="head-right">
-            <strong class="title">Tristan Bayol</strong><br>
-            Etudiant Developpeur
-        </section>
-
-        <nav></nav>
+<body class="body">
+    <header>
+    <nav></nav>
     </header>
 
+    <main class="grid-container">           
+        <div id="picture">
+            <img class="photo" src="image/photo.jpg" alt="photo">
+        </div>
 
-    <main class="cv-content">
+        <div id="profil">
+            <h1>TRISTAN BAYOL</h1>
+            <h2>ADMINISTRATEUR RESEAU</h2> 
+            <p>En recherche d’une alternance à partir de Septembre 2024</p>
+            <p>Fort de dix années d'expérience en tant que conducteur de train, 
+                je m'engage aujourd'hui dans une reconversion  dans le domaine de l'informatique. 
+                Animé par la rigueur acquise au fil des années, mon objectif est de mettre en œuvre
+                mes compétences au service de la protection des données de mes collaborateurs.</p>
+        </div>
+    
+        <section id="left">
+            <div>
+                06.59.75.49.15<br>
+                tristan.bayol@laplateforme.io<br>
+                34 ans<br>
+                Permis B Véhiculé<br>
+                Cagnes-sur-Mer<br>
+            <div>
 
-        <!--sidebar-->
-        <section class="left-part"><!--ajouter des logos a gauche de chaque titre-->
-            <h1 class="title">Réseaux</h1>
-            <p>
-                <a href="https://www.facebook.com/titou.bayol"><img src="image/icon-facebook.png" alt="Facebook"></a>
-                <a href="https://github.com/tristan-bayol"><img src="image/icon-github.png" alt="github"></a>
-                <a href="https://discordapp.com/users/201641110546677760"><img src="image/icon-discord.png" alt="Discord"></a>
-            </p>
-
-            <h1 class="title">Etudes</h1>
+            <h2>COMPETENCES</h2>
             <article>
-                <strong class="underligne">2023 à Aujourd'hui:</strong><br>
-                Bachelor IT<br>
-                Formations aux métiers du numérique<br>
-                La Plateforme Cannes<br>
-                <address>1 Chemin de l'école, 06150 Cannes</address><br><br>
-
-                <strong class="underligne">2007 - 2009</strong><br>
-                Baccalauréat Professionel TMSEC<br>
-                Technicien de Maintenance des Systèmes Energetiques et Climatiques<br>
-                Lycée Professionel Régional du Batiment Vaudan<br>
-                <address>17 Bd Pierre Sola 06300 Nice</address><br><br>
+                Assemblage et demontage PC
+                Programmation en HTML / CSS<br>
+                Configuration de serveur FTP / DNS / DHCP<br>
+                Maquettage réseau (Packet Tracer)<br>
+                Installation et Configuration de routeur et de switch <br>
             </article>
 
-            <h1 class="title">Contact</h1>
-            <address>
-                96 Chemin du Val Fleuri<br>
-                "Le Syrina Bât. C"<br>
-                06800 Cagnes sur Mer<br><br>
-            </address>
-            06.59.75.49.15<br><br>
-            tristan.bayol@laplateforme.io
+            <h2>ETUDES</h2>
+            <article>
+                <strong class="underligne">Bachelor IT</strong><br>
+                2023 à Aujourd'hui:<br>
+                Formations aux métiers du numérique<br>
+                La Plateforme Cannes<br>
+                <address>1 Chemin de l'école, 06150 Cannes</address><br>
 
+                <strong class="underligne">Baccalauréat Professionel TMSEC</strong><br>
+                2007 - 2009<br>
+                Technicien de Maintenance des Systèmes Energetiques et Climatiques<br>
+                Lycée Professionel Régional du Batiment Vaudan<br>
+                <address>17 Bd Pierre Sola 06300 Nice</address><br>
+            </article>
+
+            <h2>LANGAGE</h2>
+            <article>
+                Français : langue maternelle<br>
+                Anglais : professionel
+            </article>
+
+            <h2>RESEAUX SOCIAUX</h2>
+            <p>
+                <a href="https://www.facebook.com/titou.bayol"><img src="image/icon-facebook.png" alt="Facebook"></a>
+                <a href="https://discordapp.com/users/201641110546677760"><img src="image/icon-discord.png" alt="Discord"></a>
+            </p>
             <p class="title">Mon Cv au format PDF :
                 <a href="https://drive.google.com/file/d/1h_f23hRLdN05eDlE0trFV56foOYfDofE/view?usp=drive_link">
                     <img id="pdf-logo" src="image/logo-pdf.jpeg" alt="logo-pdf"></a>
             </p>
         </section>
 
+        <section id="right">
+            <h2>EXPERIENCE</h2>
+            
+            <div class="list">
+                <ul>
+                    <li><strong class="underligne">La Plateforme</strong><br><br>
+                        Méthodologie d'apprentissage par projet en autonomie<br>
+                        2023 à Aujourd'hui<br><br>
+                        <ul>
+                            <li>Adressage et administration d'un réseau d'entreprise via Cisco Packet Tracer</li>
+                            <li>Réalisation de la partie front-end d'un site web en HTML / CSS</li>
+                            <li>Création d'un générateur de mot de passe à l'aide de python</li><br>
+                        </ul>
+                    </li>
 
-        <!--Contenue-->
-        <section class="right-part"><!--Mise en forme a revoir sur toute la section-->
+                    <li><strong class="underligne">Remiseur Dégareur</strong><br><br>
+                        SNCF Technicentre PACA<br>
+                        2012 à 2023<br><br>
+                        <ul>
+                            <li>Conduite d'engins automoteurs et locomotives sur et hors du réseau RFN</li>
+                            <li>Réalisation d'essais des organes de sécurité nécessaires à la circulation d'un engin moteur</li>
+                            <li>Maitrise des gestes d'urgence permettant de garantir la sécurité des circulations</li><br>
+                        </ul>
+                    </li>
 
-            <h1 class="title"><img src=""></a>Profil</h1><!--Je dois travailler ma description-->
-            <p>Je dois me decrire ici !!!!</p>
+                    <li><strong class="underligne">Technicien de Maintenance des Systèmes Energetiques et Climatiques</strong><br><br>
+                        COFELY GDF Suez<br>
+                        2007 à 2012<br><br>
+                        <ul>
+                            <li>Dépannage multitechnique : Electricité, plomberie, chauffage, climatisation, traitement d’air</li>
+                            <li>Sur divers sites : Texas Instruments, Hewlett Packard, Hôpital de la Fontonne et Acropolis</li><br>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
 
-            <h1 class="title">Expériences Professionnelles</h1>
-            <p>
-                <strong class="underligne">Remiseur Dégareur</strong><br>
-                Avril 2012 à Juin 2022<br>
-                SNCF Technicentre PACA<br>
-                Conduite d'engins automoteurs et locomotives sur et hors du réseau RFN<br>
-                Réalisation d'essais des organes de sécurité nécessaires à la circulation d'un engin moteur<br>
-                <strong class="underligne">Lieu</strong> : Marseille Blancarde, Cannes la Bocca<br><br>
-
-                <strong class="underligne">Technicien de Maintenance des Systèmes Energetiques et
-                    Climatiques</strong><br>
-                Septembre 2007 à Fevrier 2012<br>
-                COFELY GDF Suez<br>
-                Dépannage multitechnique : Electricité, plomberie, chauffage, climatisation, traitement d’air<br>
-                <strong class="underligne">Lieu</strong> : Texas Instruments, CADAM, Hôpital de la Fontonne et
-                Acropolis<br>
-            </p>
-
-            <h1 class="title">Compétences</h1><!--Idem mise en forme !!!-->
-            <p>"Autonomie Rigueur Perséverance Assiduité"</p>
-            <h1 class="title">Software Skills</h1>
+            <h2>SOFTWARE SKILLS</h2>
             <p><!--trouver comment mettre mes logo dans des cercles-->
                 <img class="skills-logo" src="image/logo-linux.png" alt="logo-linux" title="Linux">
                 <img class="skills-logo" src="image/logo-bash.png" alt="logo-bash" title="Bash">
@@ -97,9 +123,11 @@
                 <img class="skills-logo" src="image/logo-html.png" alt="logo-html" title="Html">
                 <img class="skills-logo" src="image/logo-css.png" alt="logo-css" title="Css">
             </p>
-            <h1 class="title">Mes projets</h1>
+            
+            <h2>MES PROJETS</h2>
             <div>
-                <a href="https://tristan-bayol.students-laplateforme.io/bloomPetals/">BloomPetals</a>
+                <a href="https://tristan-bayol.students-laplateforme.io/bloomPetals/">BloomPetals</a><br>
+                <a href="https://tristan-bayol.students-laplateforme.io/app-favorites/">App-favorites</a>
             </div>
         </section>
     </main>
